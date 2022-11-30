@@ -16,8 +16,8 @@ Look up the charAt() method online.
 <h2>Solution</h2>
 About charAt() method：<a href="https://www.geeksforgeeks.org/java-string-charat-method-example/">Java String charAt() method with example</a><br>
 In brief, you can get the flag by sorting the index of charAt() method.<br><br>
-  
-online practice：<a href="https://replit.com/languages/python3">replit</a>
+
+Using the python script as below to get the flag！
 <pre class="text">
 <code>password = [None] *32          
 <br>         
@@ -56,6 +56,7 @@ password[31] = '0'
 <br>
 print("picoCTF{{{}}}".format(''.join(password)))</code>
 </pre>
+online practice：<a href="https://replit.com/languages/python3">replit</a>
 
 <h2>Flag</h2>
 <code>picoCTF{ca1cu1at1ng_Mach1n3s_477ce}</code>
