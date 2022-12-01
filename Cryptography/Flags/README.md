@@ -15,4 +15,4 @@ The flag is in the format PICOCTF{}
 <img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Cryptography/Flags/flag.png" alt="flags">
 
 <h2>Flag</h2>
-<code>picoCTF{not_too_bad_of_a_problem}</code>
+<code>picoCTF{F1AG5AND5TUFF}</code>
