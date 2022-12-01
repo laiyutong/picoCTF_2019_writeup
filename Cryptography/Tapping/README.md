@@ -14,7 +14,11 @@ What's it saying nc jupiter.challenges.picoctf.org 21610.<br>
 2.The flag is in the format PICOCTF{}<br>
 
 <h2>Solution</h2>
+<img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Cryptography/Tapping/nc.PNG" alt="nc">
 
+<pre class="text">
+.--. .. -.-. --- -.-. - ..-. { -- ----- .-. ... ...-- -.-.  ----. ----- ..--- ----- .---- ----. ..... .---- ----. }
+</pre>
 
 <h2>Flag</h2>
 <code></code>
