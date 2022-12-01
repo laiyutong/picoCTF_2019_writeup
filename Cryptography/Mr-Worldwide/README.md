@@ -13,24 +13,24 @@ A musician left us a <a href="https://github.com/laiyutong/picoCTF_2019_writeup/
 (None)
 
 <h2>Solution</h2>
-
+Message looks like the longitude and latitude, so search it in Google Map and note the first letter of the location.<br>
+Put all the letters together and you can get flag！<br><br>
 <pre class="text">
-
-Kyoto, Japan                      (35.028309, 135.753082)
-Odessa, Ukraine                   (46.469391, 30.740883)
-Dayton, United States             (39.758949, -84.191605)
-Istanbul, Turkey                  (41.015137, 28.979530)
-Abu Dhabi, United Arab Emirates   (24.466667, 54.366669)
-Kuala Lumpur, Malaysia            (3.140853, 101.693207)
+"K"yoto, Japan                      (35.028309, 135.753082)
+"O"dessa, Ukraine                   (46.469391, 30.740883)
+"D"ayton, United States             (39.758949, -84.191605)
+"I"stanbul, Turkey                  (41.015137, 28.979530)
+"A"bu Dhabi, United Arab Emirates   (24.466667, 54.366669)
+"K"uala Lumpur, Malaysia            (3.140853, 101.693207)
 ----------------------------------------------------------
-Addis Ababa, Ethiophia            (9.005401, 38.763611)
-Loja, Ecuador                     (-3.989038, -79.203560)
-Amsterdam, Netherlands            (52.377956, 4.897070)
-Sleepy Hollow, United States      (41.085651, -73.858467)
-Kodiak, United States             (57.790001, -152.407227)
-Alexandria, Egypt                 (31.205753, 29.924526)
+"A"ddis Ababa, Ethiophia            (9.005401, 38.763611)
+"L"oja, Ecuador                     (-3.989038, -79.203560)
+"A"msterdam, Netherlands            (52.377956, 4.897070)
+"S"leepy Hollow, United States      (41.085651, -73.858467)
+"K"odiak, United States             (57.790001, -152.407227)
+"A"lexandria, Egypt                 (31.205753, 29.924526)
 </pre>
 
 <h2>Flag</h2>
-<code>picoctf{thenumbersmason}</code>
+<code>picoCTF{KODIAK_ALASKA}</code>
 
