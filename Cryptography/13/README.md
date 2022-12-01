@@ -13,6 +13,8 @@ Cryptography can be easy, do you know what ROT13 is?<br>
 This can be solved online if you don't want to do it by hand!
 
 <h2>Solution</h2>
+As description mention, the problem can be solved with <a href="https://en.wikipedia.org/wiki/ROT13">ROT13</a>.<br>
+Here is a <a href="https://www.online-toolz.com/tools/rot13-encoder-decoder.php">ROT13 online tool</a>.<br>
 
 <h2>Flag</h2>
-<code>picoctf{}</code>
+<code>picoCTF{not_too_bad_of_a_problem}</code>
