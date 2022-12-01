@@ -6,13 +6,13 @@ POINTS: 200
 Cryptography
 
 <h2>Problem Description</h2>
-What do the flags mean?
+What do the <a href="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Cryptography/Flags/flag.png">flags</a> mean?
 
 <h2>Hints</h2>
 The flag is in the format PICOCTF{}
 
 <h2>Solution</h2>
-
+<img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Cryptography/Flags/flag.png" alt="flags">
 
 <h2>Flag</h2>
 <code>picoCTF{not_too_bad_of_a_problem}</code>
