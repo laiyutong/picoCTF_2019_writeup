@@ -13,7 +13,7 @@ A musician left us a <a href="https://github.com/laiyutong/picoCTF_2019_writeup/
 (None)
 
 <h2>Solution</h2>
-Message looks like the longitude and latitude, so search it in Google Map and note the first letter of the location.<br>
+Message looks like the longitude and latitude, so search it in <code>Google Map</code> and note the <code>first letter</code> of the location.<br>
 Put all the letters together and you can get flag！<br><br>
 <pre class="text">
 "K"yoto, Japan                      (35.028309, 135.753082)
