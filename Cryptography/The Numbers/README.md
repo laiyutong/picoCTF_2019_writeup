@@ -8,7 +8,7 @@ POINTS: 100
 Cryptography
 
 <h2>Problem Description</h2>
-The numbers... what do they mean?
+The <a href="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Cryptography/The%20Numbers/the_numbers.png">numbers</a>... what do they mean?
 
 <h2>Hints</h2>
 The flag is in the format PICOCTF{}
