@@ -14,8 +14,10 @@ The flag is in the format PICOCTF{}
 
 <h2>Solution</h2>
 Because the flags are the result of being encrypted,<br> 
-I googled the information related to the flag signal and I found the <a href="https://en.wikipedia.org/wiki/International_maritime_signal_flags">International maritime signal flags</a>.
-
+I googled the information related to the flag signal and I found the <a href="https://en.wikipedia.org/wiki/International_maritime_signal_flags">International maritime signal flags</a>.<br><br>
+Letter flags with ICS meaning as below：<br> 
+<img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Cryptography/Flags/ICS%20meaning.jpg" alt="ICS">
+After decrypting the comparison picture, you can get the flag！
 
 <h2>Flag</h2>
 <code>picoCTF{F1AG5AND5TUFF}</code>
