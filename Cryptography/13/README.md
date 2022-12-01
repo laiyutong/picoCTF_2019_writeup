@@ -6,7 +6,8 @@ POINTS: 100
 Cryptography
 
 <h2>Problem Description</h2>
-Cryptography can be easy, do you know what ROT13 is? cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}
+Cryptography can be easy, do you know what ROT13 is?<br>
+<code>cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}</code>
 
 <h2>Hints</h2>
 This can be solved online if you don't want to do it by hand!
