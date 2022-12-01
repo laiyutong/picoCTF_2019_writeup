@@ -19,7 +19,8 @@ Simply put, all letters in the plaintext are shifted backwards (or forwards)<br>
 by a fixed number in the alphabet and then replaced with ciphertext.<br><br>
 The Caesar cipher is a very easy to break encryption method that can be cracked using <code>Brute-force attack</code>.
 
-Here is an <a href="https://www.mymathtables.com/calculator/digital/caesar-cipher-encript-decript-converter.html">Online Cryptography Caesar Cipher Converter</a>.
+Here is an <a href="https://www.mymathtables.com/calculator/digital/caesar-cipher-encript-decript-converter.html">Online Cryptography Caesar Cipher Converter</a>.<br>
+Paste the ciphertext to the bloack of <code>Enter Text</code> and you can get the flag(plaintext) in the block of <code>result</code>.
 
 <h2>Flag</h2>
 <code>picoCTF{crossingtherubiconzaqjsscr}</code>
