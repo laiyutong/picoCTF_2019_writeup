@@ -14,6 +14,8 @@ This can be solved online if you don't want to do it by hand!
 
 <h2>Solution</h2>
 As description mention, the problem can be solved with <a href="https://en.wikipedia.org/wiki/ROT13">ROT13</a>.<br>
+The letter correspondence is as follows：<br><br>
+<img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Cryptography/13/ROT13.png" alt="ROT13">
 Here is a <a href="https://www.online-toolz.com/tools/rot13-encoder-decoder.php">ROT13 online tool</a>.<br>
 
 <h2>Flag</h2>
