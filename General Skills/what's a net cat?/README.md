@@ -13,7 +13,8 @@ Can you connect to <code>jupiter.challenges.picoctf.org</code> at port <code>642
 nc <a href="https://linux.die.net/man/1/nc">tutorial</a>
 
 <h2>Solution</h2>
-
+I used <code>nc</code> command in <code>kali</code> and I got the flag！<br> 
+<img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/General%20Skills/what's%20a%20net%20cat%3F/nc.png" alt="nc">
 
 <h2>Flag</h2>
 <code>picoCTF{nEtCat_Mast3ry_284be8f7}</code>
