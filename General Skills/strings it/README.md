@@ -14,4 +14,4 @@ Can you find the flag in <a href="https://github.com/laiyutong/picoCTF_2019_writ
 <h2>Solution</h2>
 
 <h2>Flag</h2>
-<code>picoCTF{nEtCat_Mast3ry_284be8f7}</code>
+<code>picoCTF{5tRIng5_1T_827aee91}</code>
