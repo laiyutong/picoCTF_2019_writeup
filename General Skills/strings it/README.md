@@ -6,7 +6,7 @@ POINTS: 100
 General Skills
 
 <h2>Problem Description</h2>
-Can you find the flag in file without running it?
+Can you find the flag in <a href="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/General%20Skills/strings%20it/strings">file</a> without running it?
 
 <h2>Hints</h2>
 <a href="https://linux.die.net/man/1/strings">strings</a>
