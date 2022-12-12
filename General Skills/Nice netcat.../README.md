@@ -14,8 +14,12 @@ There is a nice program that you can talk to by using this command in a shell:<b
 2.You can practice reading and writing ASCII with this picoGym problem: <a href="https://play.picoctf.org/practice/challenge/22">Let's Warm Up</a>
 
 <h2>Solution</h2>
+After executing <code>nc mercury.picoctf.net 21135</code> in linux,
+you will find that the output is all numbers.<br>
 <img src="https://i.imgur.com/WfQoXAX.png" alt="ncoutput">
+Because it may be related to ASCII, write a python shell to convert numbers to letters.<br>
 <img src="https://i.imgur.com/1pe3Zwc.png" alt="change.py" width="27%">
+Take the output of <code>nc mercury.picoctf.net 21135</code> as the input of pyhton shell and execute it,<br> and you will get the flag！<br>
 <img src="https://i.imgur.com/2WvKATD.png" alt="sol">
 
 <h2>Flag</h2>
