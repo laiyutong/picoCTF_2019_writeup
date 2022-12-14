@@ -28,4 +28,4 @@ a ciphertext will be generated in the middle area.<br>
 You can get the flag by using <a href="https://www.dcode.fr/vigenere-cipher">online tool</a>！
 
 <h2>Flag</h2>
-<code>picoCTF{}</code>
+<code>picoCTF{CRYPTOISFUN}</code>
