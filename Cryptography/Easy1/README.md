@@ -14,7 +14,7 @@ Can you use this <a href="https://github.com/laiyutong/picoCTF_2019_writeup/blob
 <h2>Hints</h2>
 1.Submit your answer in our flag format.<br>
 &ensp;For example, if your answer was 'hello', you would submit 'picoCTF{HELLO}' as the flag.<br><br>
-2.Please use all caps for the message.
+2.Please use <code>all caps</code> for the message.
 
 
 <h2>Solution</h2>
