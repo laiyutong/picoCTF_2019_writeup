@@ -31,7 +31,7 @@ line 2  <+0>:	push   ebp          //pushes asm1(0x6fa) into ebp
 line 3  <+1>:	mov    ebp,esp      //the value(0x6fa) of ebp is moved into esp
 </pre>
 
-0x12 because the value <code>0x6fa</code> of [ebp+0x8] is greater than <code>0x3a2</code>.
+Because the value <code>0x6fa</code> of [ebp+0x8] is greater than <code>0x3a2</code>.
 <pre class="text">
 line 4  <+3>:	cmp    DWORD PTR [ebp+0x8],0x3a2    //compare the value of [ebp+0x8] and 0x3a2
 line 5  <+10>:	jg     0x512 &lt;asm1+37>       //Jump if the value of [ebp+0x8] Greater than 0x3a2
