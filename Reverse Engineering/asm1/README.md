@@ -53,6 +53,7 @@ line 18  <+52>:	jmp    0x529 <asm1+60>
 line 21  <+60>:	pop    ebp
 line 22  <+61>:	ret 
 </pre>
+So asm1 returned the value of <code>0x6e8</code> which is the flag.
 
 
 <h2>Flag</h2>
