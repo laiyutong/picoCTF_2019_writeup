@@ -27,7 +27,7 @@ Explain：
 
 <pre class="text">
 <+0>:	push   ebp          //pushes asm1(0x6fa) into ebp
-<+1>:	mov    ebp,esp      //the value of ebp(0x6fa) is moved into esp
+<+1>:	mov    ebp,esp      //the value(0x6fa) of ebp is moved into esp
 </pre>
 
 <pre class="text">
