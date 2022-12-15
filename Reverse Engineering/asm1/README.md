@@ -21,9 +21,10 @@ Explain：
     ESP is the current stack pointer.
     EBP is the base pointer for the current stack frame.<br>
     <img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Reverse%20Engineering/asm1/EBP%26ESP.png" alt="EBP&ESP">
+    DWORD PTR [] means "the size of the target operand is 32 bits"
 </pre>
 
-<code>(0x6fa)</code> is being put into the stack due to two lines below.<br>
+<code>(0x6fa)</code> as a parameter is being put into the stack and located at <code>[ebp+0x8]</code> due to two lines below.<br>
 
 <pre class="text">
 <+0>:	push   ebp          //pushes asm1(0x6fa) into ebp
