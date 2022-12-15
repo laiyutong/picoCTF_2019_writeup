@@ -13,6 +13,15 @@ The source code for this vault is here: <a href="https://github.com/laiyutong/pi
 Make a table that contains each value of the loop variables and the corresponding buffer index that it writes to.
 
 <h2>Solution</h2>
+<pre class="text">
+                                     1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 
+           pos： 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1   
+(0,7,1)          j U 5 t _ a _ s
+(8,15,1)                         1 m p l 3 _ a n 
+(16,32,2)                                        4   r   m   4   u   1   b   8
+(31,16,-2)                                         g   4   _   _   _   f   3   0
+</pre>
+
 
 <h2>Flag</h2>
 <code>picoCTF{}</code>
