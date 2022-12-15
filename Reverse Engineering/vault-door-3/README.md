@@ -28,7 +28,7 @@ Accordingly, we need to reverse engineer <code>jU5t_a_sna_3lpm18gb41_u_4_mfr340<
 (16,32,2)                                        4   r   m   4   u   1   b   8
 (31,16,-2)                                         g   4   _   _   _   f   3   0
 </pre>
-
+You can get the flag by sorting the string！
 
 <h2>Flag</h2>
 <code>picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_1fb380}</code>
