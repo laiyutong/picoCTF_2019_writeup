@@ -31,7 +31,7 @@ line 2  <+0>:	push   ebp          //pushes asm1(0x6fa) into ebp
 line 3  <+1>:	mov    ebp,esp      //the value(0x6fa) of ebp is moved into esp
 </pre>
 
-Jump to <code><asm1+37></code> (line 14) because the value <code>0x6fa</code> of [ebp+0x8] is greater than <code>0x3a2</code>.
+0x12 because the value <code>0x6fa</code> of [ebp+0x8] is greater than <code>0x3a2</code>.
 <pre class="text">
 line 4  <+3>:	cmp    DWORD PTR [ebp+0x8],0x3a2    //compare the value of [ebp+0x8] and 0x3a2
 line 5  <+10>:	jg     0x512 &lt;asm1+37>       //Jump if the value of [ebp+0x8] Greater than 0x3a2
@@ -43,19 +43,20 @@ line 14  <+37>:	cmp    DWORD PTR [ebp+0x8],0x6fa    //compare the value of [ebp+
 line 15  <+44>:	jne    0x523 &lt;asm1+54>       //Jump if the value of [ebp+0x8] not equal to 0x6fa
 </pre>
 
-
+First, move the value <code>0x6fa</code> of [ebp+0x8] to eax register.<br>
+Next, using the value <code>0x6fa</code> of eax to subtract <code>0x12</code> and getting the value <code>0x6e8</code>.<br>
+After that, jump to <code><asm1+60></code> (line 21).<br>
 <pre class="text">
 line 16  <+46>:	mov    eax,DWORD PTR [ebp+0x8]      //move the value of [ebp+0x8] to eax
 line 17  <+49>:	sub    eax,0x12             //the value of eax subtract 0x12
 line 18  <+52>:	jmp    0x529 &lt;asm1+60>      //jmp to &lt;asm1+60>
 </pre>
 
+The stack is popped and eax is returned as the value of <code>0x6e8</code> which is the flag！
 <pre class="text">
-line 21  <+60>:	pop    ebp
-line 22  <+61>:	ret 
+line 21  <+60>:	pop    ebp  //pop ebp from the stack
+line 22  <+61>:	ret     //return value of eax
 </pre>
-So asm1 returned the value of <code>0x6e8</code> which is the flag.
-
 
 <h2>Flag</h2>
 <code>0x6e8</code>
