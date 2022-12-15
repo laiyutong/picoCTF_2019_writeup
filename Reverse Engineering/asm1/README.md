@@ -20,7 +20,7 @@ assembly <a href="https://www.tutorialspoint.com/assembly_programming/assembly_c
 Explain：
     ESP is the current stack pointer.
     EBP is the base pointer for the current stack frame.<br>
-    <img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Reverse%20Engineering/asm1/EBP%26ESP.png" alt="EBP&ESP">
+    <img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Reverse%20Engineering/asm1/EBP%26ESP.png" alt="EBP&ESP"><br>
     DWORD PTR [] means "the size of the target operand is 32 bits"
 </pre>
 
