@@ -14,10 +14,25 @@ Make a table that contains each value of the loop variables and the correspondin
 
 <h2>Solution</h2>
 The string <code>jU5t_a_sna_3lpm18gb41_u_4_mfr340</code> is given by the <code>checkPassword()</code> in <a href="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Reverse%20Engineering/vault-door-3/VaultDoor3.java">VaultDoor3.java</a><br>
-
-Accordingly, we need to reverse engineer <code>jU5t_a_sna_3lpm18gb41_u_4_mfr340</code>.
+Accordingly, we need to reverse engineer <code>jU5t_a_sna_3lpm18gb41_u_4_mfr340</code>.<br><br>
+Writing a python script and using <code>jU5t_a_sna_3lpm18gb41_u_4_mfr340</code> as input to reverse.
 <pre class="text">
+def checkPassword(password):
+    if (not len(password) == 32):
+        return False
+    buffer = [""]*32
+    print(buffer)
+    for i in range(8):
+        buffer[i] = password[i]
+    for i in range(8, 16):
+        buffer[i] = password[23-i]
+    for i in range(16, 32, 2):
+        buffer[i] = password[46-i]
+    for i in range(31, 16, -2):
+        buffer[i] = password[i] 
+    print(''.join(buffer))
 
+checkPassword("jU5t_a_sna_3lpm18gb41_u_4_mfr340")
 </pre>
 
 <pre class="text">
