@@ -14,6 +14,31 @@ Make a table that contains each value of the loop variables and the correspondin
 
 <h2>Solution</h2>
 <pre class="text">
+public boolean checkPassword(String password) 
+{
+    if (password.length() != 32) {
+    return false;
+    }
+    char[] buffer = new char[32];
+    int i;
+    for (i=0; i<8; i++) {
+    buffer[i] = password.charAt(i);       
+    }
+    for (; i<16; i++) {
+    buffer[i] = password.charAt(23-i);    
+    }
+    for (; i<32; i+=2) {
+    buffer[i] = password.charAt(46-i);   
+    }
+    for (i=31; i>=17; i-=2) {
+    buffer[i] = password.charAt(i);       
+    }
+    String s = new String(buffer);
+    return s.equals("jU5t_a_sna_3lpm18gb41_u_4_mfr340");
+}
+</pre>
+
+<pre class="text">
                                      1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 
            pos： 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1   
 (0,7,1)          j U 5 t _ a _ s
