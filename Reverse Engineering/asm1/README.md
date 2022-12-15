@@ -18,4 +18,4 @@ assembly <a href="https://www.tutorialspoint.com/assembly_programming/assembly_c
 <h2>Solution</h2>
 
 <h2>Flag</h2>
-<code></code>
+<code>picoCTF{0x6e8}</code>
