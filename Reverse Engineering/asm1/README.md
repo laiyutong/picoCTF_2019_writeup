@@ -17,6 +17,12 @@ assembly <a href="https://www.tutorialspoint.com/assembly_programming/assembly_c
 
 <h2>Solution</h2>
 <pre class="text">
+Explain：
+    ESP is the current stack pointer.
+    EBP is the base pointer for the current stack frame.
+</pre>
+
+<pre class="text">
 <+0>:	push   ebp
 <+1>:	mov    ebp,esp
 </pre>
