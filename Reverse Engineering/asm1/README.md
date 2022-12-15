@@ -27,29 +27,30 @@ Explain：
 <code>(0x6fa)</code> as a parameter is being put into the stack and located at <code>[ebp+0x8]</code> due to two lines below.<br>
 
 <pre class="text">
-<+0>:	push   ebp          //pushes asm1(0x6fa) into ebp
-<+1>:	mov    ebp,esp      //the value(0x6fa) of ebp is moved into esp
+line 2  <+0>:	push   ebp          //pushes asm1(0x6fa) into ebp
+line 3  <+1>:	mov    ebp,esp      //the value(0x6fa) of ebp is moved into esp
+</pre>
+
+Jump to <code><asm1+37></code>(line 14) because the value <code>(0x6fa)</code> of [ebp+0x8] is greater than <code>0x3a2</code>.
+<pre class="text">
+line 4  <+3>:	cmp    DWORD PTR [ebp+0x8],0x3a2    //compare the value of [ebp+0x8] and 0x3a2
+line 5  <+10>:	jg     0x512 <asm1+37>              //Jump if  the value of [ebp+0x8] Greater than 0x3a2
 </pre>
 
 <pre class="text">
-<+3>:	cmp    DWORD PTR [ebp+0x8],0x3a2
-<+10>:	jg     0x512 <asm1+37>
+line 14  <+37>:	cmp    DWORD PTR [ebp+0x8],0x6fa
+line 15  <+44>:	jne    0x523 <asm1+54>
 </pre>
 
 <pre class="text">
-<+37>:	cmp    DWORD PTR [ebp+0x8],0x6fa
-<+44>:	jne    0x523 <asm1+54>
+line 16  <+46>:	mov    eax,DWORD PTR [ebp+0x8]
+line 17  <+49>:	sub    eax,0x12
+line 18  <+52>:	jmp    0x529 <asm1+60>
 </pre>
 
 <pre class="text">
-<+46>:	mov    eax,DWORD PTR [ebp+0x8]
-<+49>:	sub    eax,0x12
-<+52>:	jmp    0x529 <asm1+60>
-</pre>
-
-<pre class="text">
-<+60>:	pop    ebp
-<+61>:	ret 
+line 21  <+60>:	pop    ebp
+line 22  <+61>:	ret 
 </pre>
 
 
