@@ -34,19 +34,20 @@ line 3  <+1>:	mov    ebp,esp      //the value(0x6fa) of ebp is moved into esp
 Jump to <code><asm1+37></code> (line 14) because the value <code>0x6fa</code> of [ebp+0x8] is greater than <code>0x3a2</code>.
 <pre class="text">
 line 4  <+3>:	cmp    DWORD PTR [ebp+0x8],0x3a2    //compare the value of [ebp+0x8] and 0x3a2
-line 5  <+10>:	jg     0x512 <asm1+37>       //Jump if the value of [ebp+0x8] Greater than 0x3a2
+line 5  <+10>:	jg     0x512 &lt;asm1+37>       //Jump if the value of [ebp+0x8] Greater than 0x3a2
 </pre>
 
 Continue to execute the command of line 16 since the value <code>0x6fa</code> of [ebp+0x8] is equal to  <code>0x6fa</code>.
 <pre class="text">
 line 14  <+37>:	cmp    DWORD PTR [ebp+0x8],0x6fa    //compare the value of [ebp+0x8] and 0x6fa
-line 15  <+44>:	jne    0x523 <asm1+54>       //Jump if the value of [ebp+0x8] not equal to 0x6fa
+line 15  <+44>:	jne    0x523 &lt;asm1+54>       //Jump if the value of [ebp+0x8] not equal to 0x6fa
 </pre>
 
+
 <pre class="text">
-line 16  <+46>:	mov    eax,DWORD PTR [ebp+0x8]
-line 17  <+49>:	sub    eax,0x12
-line 18  <+52>:	jmp    0x529 <asm1+60>
+line 16  <+46>:	mov    eax,DWORD PTR [ebp+0x8]      //move the value of [ebp+0x8] to eax
+line 17  <+49>:	sub    eax,0x12             //the value of eax subtract 0x12
+line 18  <+52>:	jmp    0x529 &lt;asm1+60>      //jmp to &lt;asm1+60>
 </pre>
 
 <pre class="text">
