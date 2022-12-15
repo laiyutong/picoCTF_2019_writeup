@@ -7,7 +7,7 @@ Reverse Engineering
 
 <h2>Problem Description</h2>
 This vault uses for-loops and byte arrays.<br>
-The source code for this vault is here: VaultDoor3.java
+The source code for this vault is here: <a href="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Reverse%20Engineering/vault-door-3/VaultDoor3.java">VaultDoor3.java</a>
 
 <h2>Hints</h2>
 Make a table that contains each value of the loop variables and the corresponding buffer index that it writes to.
