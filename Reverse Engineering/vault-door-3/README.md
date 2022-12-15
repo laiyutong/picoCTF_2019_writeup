@@ -18,7 +18,7 @@ Accordingly, we need to reverse engineer <code>jU5t_a_sna_3lpm18gb41_u_4_mfr340<
 Writing a python script and using <code>jU5t_a_sna_3lpm18gb41_u_4_mfr340</code> as input to reverse as shown below.<br>
 <pre class="text">
 def checkPassword(password):
-    if (not len(password) == 32):
+    if (len(password) != 32):
         return False
     buffer = [""]*32
     print(buffer)
