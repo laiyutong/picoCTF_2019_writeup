@@ -19,12 +19,15 @@ assembly <a href="https://www.tutorialspoint.com/assembly_programming/assembly_c
 <pre class="text">
 Explain：
     ESP is the current stack pointer.
-    EBP is the base pointer for the current stack frame.
+    EBP is the base pointer for the current stack frame.<br>
+    <img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Reverse%20Engineering/asm1/EBP%26ESP.png" alt="EBP&ESP">
 </pre>
 
+<code>(0x6fa)</code> is being put into the stack due to two lines below.<br>
+
 <pre class="text">
-<+0>:	push   ebp
-<+1>:	mov    ebp,esp
+<+0>:	push   ebp          //pushes asm1(0x6fa) into ebp
+<+1>:	mov    ebp,esp      //the value of ebp is moved into esp
 </pre>
 
 <pre class="text">
@@ -50,4 +53,4 @@ Explain：
 
 
 <h2>Flag</h2>
-<code>picoCTF{0x6e8}</code>
+<code>0x6e8</code>
