@@ -34,6 +34,7 @@ def checkPassword(password):
 checkPassword("jU5t_a_sna_3lpm18gb41_u_4_mfr340")
 </pre>
 
+The string arrangement of each for loop as follow：
 <pre class="text">
                                      1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 
            pos： 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1   
