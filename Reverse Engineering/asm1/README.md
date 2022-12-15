@@ -31,15 +31,16 @@ line 2  <+0>:	push   ebp          //pushes asm1(0x6fa) into ebp
 line 3  <+1>:	mov    ebp,esp      //the value(0x6fa) of ebp is moved into esp
 </pre>
 
-Jump to <code><asm1+37></code>(line 14) because the value <code>(0x6fa)</code> of [ebp+0x8] is greater than <code>0x3a2</code>.
+Jump to <code><asm1+37></code>(line 14) because the value <code>0x6fa</code> of [ebp+0x8] is greater than <code>0x3a2</code>.
 <pre class="text">
 line 4  <+3>:	cmp    DWORD PTR [ebp+0x8],0x3a2    //compare the value of [ebp+0x8] and 0x3a2
-line 5  <+10>:	jg     0x512 <asm1+37>       //Jump if  the value of [ebp+0x8] Greater than 0x3a2
+line 5  <+10>:	jg     0x512 <asm1+37>       //Jump if the value of [ebp+0x8] Greater than 0x3a2
 </pre>
 
+Continue to execute the command of line 16 since the value <code>0x6fa</code> of [ebp+0x8] is equal to  <code>0x6fa</code>.
 <pre class="text">
-line 14  <+37>:	cmp    DWORD PTR [ebp+0x8],0x6fa
-line 15  <+44>:	jne    0x523 <asm1+54>
+line 14  <+37>:	cmp    DWORD PTR [ebp+0x8],0x6fa    //compare the value of [ebp+0x8] and 0x6fa
+line 15  <+44>:	jne    0x523 <asm1+54>       //Jump if the value of [ebp+0x8] not equal to 0x6fa
 </pre>
 
 <pre class="text">
