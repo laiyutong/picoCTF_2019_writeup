@@ -17,6 +17,7 @@ Since <a href="https://www.comparitech.com/net-admin/pcap-guide/">PCAP</a> files
 using wireshark to open <a href="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Forensics/shark%20on%20wire%201/capture.pcap">packet capture</a>.
 
 <a href="https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html">streams</a>
+<img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Forensics/shark%20on%20wire%201/wireshark.png" alt="wireshark">
 
 <h2>Flag</h2>
 <code>picoCTF{StaT31355_636f6e6e}</code>
