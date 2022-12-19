@@ -6,7 +6,7 @@ POINTS: 150
 Forensics
 
 <h2>Problem Description</h2>
-We found this packet capture. Recover the flag.
+We found this <a href="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Forensics/shark%20on%20wire%201/capture.pcap">packet capture</a>. Recover the flag.
 
 <h2>Hints</h2>
 1.Try using a tool like Wireshark.<br>
