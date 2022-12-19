@@ -22,7 +22,7 @@ we can analyze the stream by selecting the menu item <code>Analyze</code> → <c
 <img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Forensics/shark%20on%20wire%201/wireshark.png" alt="wireshark" width="70%">
 
 <img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Forensics/shark%20on%20wire%201/stream.png" alt="stream0" width="70%">
-
+You can get the flag when stream equal 6！
 <img src="https://github.com/laiyutong/picoCTF_2019_writeup/blob/main/Forensics/shark%20on%20wire%201/stream6.png" alt="stream6" width="70%">
 
 <h2>Flag</h2>
