@@ -13,7 +13,7 @@ We found this <a href="https://github.com/laiyutong/picoCTF_2019_writeup/blob/ma
 2.What are streams?
 
 <h2>Solution</h2>
-
+<a href="https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html">streams</a>
 
 <h2>Flag</h2>
 <code>picoCTF{StaT31355_636f6e6e}</code>
