@@ -117,4 +117,4 @@ You will get the flag after coverting the <code>plaintext</code>！
 If you convert the last plaintext to a hex number, then ascii, you'll find what you need! ;)
 </pre>
 <h2>Flag</h2>
-<code>picoCTF{}</code>
+<code>picoCTF{wA8_th4t$_ill3aGal..o26cefcb2}</code>
