@@ -101,9 +101,6 @@ Outstanding move!!!
 
 <pre class="text">
 </pre>
-
-<pre class="text">
-</pre>
   
 <h2>Flag</h2>
 <code>picoCTF{}</code>
